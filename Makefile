@@ -7,9 +7,8 @@ plugin:
 
 .PHONY: clean
 clean:
-	bash plugin/clean.sh
-	bash server/clean.sh
-	bash resourcepack/clean.sh
+	rm -f build/libs/*.jar
+	rm -f run/plugins/TurnAround.jar
 
 .PHONY: run
 run: plugin
