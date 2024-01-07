@@ -16,3 +16,7 @@ TurnAround is a Paper plugin to move player on a circular trajectory.
 ```
 make
 ```
+
+# License
+
+MIT
